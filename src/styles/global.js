@@ -32,4 +32,34 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background: #fff;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+
+  table thead {
+    background: #ddd;
+  }
+  table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+
+  table table {
+    background-color: #fff;
+  }
 `;

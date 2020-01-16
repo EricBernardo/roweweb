@@ -29,7 +29,7 @@ export default function Profile() {
         <Input type="password" name="password_confirmation" placeholder="Confirmar senha" />
         <button type="submit">Atualizar perfil</button>
       </Form>
-      <button type="button" onClick={handlerSignOut}>Sair do Rocketz Web</button>
+      <button type="button" onClick={handlerSignOut}>Sair da Rocketz Web</button>
     </Container>
   );
 }
