@@ -9,7 +9,9 @@ import { Container } from './styles';
 export default function Category() {
 
   const [results, setResults] = useState([])
-  const [pagination, setPagination] = useState([])
+  const [pagination, setPagination] = useState({
+    per_page: 0
+  })
 
   async function loadData(page = 1) {
 

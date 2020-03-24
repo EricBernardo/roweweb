@@ -29,6 +29,11 @@ export default createGlobalStyle`
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  [disabled] {
+      opacity: 0.65;
+      cursor: progress;
+  }
+
   button {
     cursor: pointer;
   }

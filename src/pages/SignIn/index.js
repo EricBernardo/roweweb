@@ -26,7 +26,7 @@ export default function SignIn() {
     <Form schema={schema} onSubmit={handleSubmit}>
       <Input name="email" type="email" placeholder="E-mail" />
       <Input name="password" type="password" placeholder="Senha" />
-      <button type="submit">{loading ? 'Carregando...' : 'Login'}</button>
+      <button type="submit" disabled={loading}>{loading ? 'Carregando...' : 'Login'}</button>
     </Form>
   </>
   );
